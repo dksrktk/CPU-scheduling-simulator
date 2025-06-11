@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="termproj" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/termproj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/termproj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="double_fcfs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="edf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fcfs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gantt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ljf_np.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ljf_p.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mlfq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mlq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="priority_io_np.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="priority_np.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="priority_p.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="priority_rr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="priority_update.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="process.h" />
+		<Unit filename="rm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sif_np.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sjf_np.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sjf_p.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
